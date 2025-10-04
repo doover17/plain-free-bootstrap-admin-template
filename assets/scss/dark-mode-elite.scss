@@ -1,0 +1,145 @@
+/* Theme Export (SCSS) || From colorffy.com */
+// Primary Colors
+$clr-primary-a0: #6598da;
+$clr-primary-a10: #79a3de;
+$clr-primary-a20: #8baee3;
+$clr-primary-a30: #9cb9e7;
+$clr-primary-a40: #adc4eb;
+$clr-primary-a50: #bed0ef;
+
+// Surface Colors
+$clr-surface-a0: #121212;
+$clr-surface-a10: #282828;
+$clr-surface-a20: #3f3f3f;
+$clr-surface-a30: #575757;
+$clr-surface-a40: #717171;
+$clr-surface-a50: #8b8b8b;
+
+// Tonal Colors
+$clr-surface-tonal-a0: #1b1e23;
+$clr-surface-tonal-a10: #303338;
+$clr-surface-tonal-a20: #46494d;
+$clr-surface-tonal-a30: #5e6064;
+$clr-surface-tonal-a40: #77797c;
+$clr-surface-tonal-a50: #909295;
+
+// Success Colors
+$clr-success-a0: #22946e;
+$clr-success-a10: #47d5a6;
+$clr-success-a20: #9ae8ce;
+
+// Warning Colors
+$clr-warning-a0: #a87a2a;
+$clr-warning-a10: #d7ac61;
+$clr-warning-a20: #ecd7b2;
+
+// Danger Colors
+$clr-danger-a0: #9c2121;
+$clr-danger-a10: #d94a4a;
+$clr-danger-a20: #eb9e9e;
+
+// Info Colors
+$clr-info-a0: #21498a;
+$clr-info-a10: #4077d1;
+$clr-info-a20: #92b2e5;
+
+$theme-colors: (
+  primary: ( a0: $clr-primary-a0, a10: $clr-primary-a10, a20: $clr-primary-a20, a30: $clr-primary-a30, a40: $clr-primary-a40, a50: $clr-primary-a50 ),
+  surface: ( a0: $clr-surface-a0, a10: $clr-surface-a10, a20: $clr-surface-a20, a30: $clr-surface-a30, a40: $clr-surface-a40, a50: $clr-surface-a50 ),
+  surface-tonal: ( a0: $clr-surface-tonal-a0, a10: $clr-surface-tonal-a10, a20: $clr-surface-tonal-a20, a30: $clr-surface-tonal-a30, a40: $clr-surface-tonal-a40, a50: $clr-surface-tonal-a50 ),
+  success: ( a0: $clr-success-a0, a10: $clr-success-a10, a20: $clr-success-a20 ),
+  warning: ( a0: $clr-warning-a0, a10: $clr-warning-a10, a20: $clr-warning-a20 ),
+  danger: ( a0: $clr-danger-a0, a10: $clr-danger-a10, a20: $clr-danger-a20 ),
+  info: ( a0: $clr-info-a0, a10: $clr-info-a10, a20: $clr-info-a20 )
+);
+
+.bg-primary-a0 {
+  background-color: $clr-primary-a0;
+}
+.bg-primary-a10 {
+  background-color: $clr-primary-a10;
+}
+.bg-primary-a20 {
+  background-color: $clr-primary-a20;
+}
+.bg-primary-a30 {
+  background-color: $clr-primary-a30;
+}
+.bg-primary-a40 {
+  background-color: $clr-primary-a40;
+}
+.bg-primary-a50 {
+  background-color: $clr-primary-a50;
+}
+.bg-surface-a0 {
+  background-color: $clr-surface-a0;
+}
+.bg-surface-a10 {
+  background-color: $clr-surface-a10;
+}
+.bg-surface-a20 {
+  background-color: $clr-surface-a20;
+}
+.bg-surface-a30 {
+  background-color: $clr-surface-a30;
+}
+.bg-surface-a40 {
+  background-color: $clr-surface-a40;
+}
+.bg-surface-a50 {
+  background-color: $clr-surface-a50;
+}
+.bg-surface-tonal-a0 {
+  background-color: $clr-surface-tonal-a0;
+}
+.bg-surface-tonal-a10 {
+  background-color: $clr-surface-tonal-a10;
+}
+.bg-surface-tonal-a20 {
+  background-color: $clr-surface-tonal-a20;
+}
+.bg-surface-tonal-a30 {
+  background-color: $clr-surface-tonal-a30;
+}
+.bg-surface-tonal-a40 {
+  background-color: $clr-surface-tonal-a40;
+}
+.bg-surface-tonal-a50 {
+  background-color: $clr-surface-tonal-a50;
+}
+.bg-success-a0 {
+  background-color: $clr-success-a0;
+}
+.bg-success-a10 {
+  background-color: $clr-success-a10;
+}
+.bg-success-a20 {
+  background-color: $clr-success-a20;
+}
+.bg-warning-a0 {
+  background-color: $clr-warning-a0;
+}
+.bg-warning-a10 {
+  background-color: $clr-warning-a10;
+}
+.bg-warning-a20 {
+  background-color: $clr-warning-a20;
+}
+.bg-danger-a0 {
+  background-color: $clr-danger-a0;
+}
+.bg-danger-a10 {
+  background-color: $clr-danger-a10;
+}
+.bg-danger-a20 {
+  background-color: $clr-danger-a20;
+}
+.bg-info-a0 {
+  background-color: $clr-info-a0;
+}
+.bg-info-a10 {
+  background-color: $clr-info-a10;
+}
+.bg-info-a20 {
+  background-color: $clr-info-a20;
+}
